@@ -100,7 +100,7 @@ const Home = () => {
                                 </div>
                                 <div className="">0.00</div>
                             </div>
-                            <div className="mx-auto w-[4rem] bg-[#2B3342] py-5 px-[auto] text-center  my-[-1.5rem] z-10 border-[#252B36">
+                            <div className="mx-auto w-[4.5rem] bg-[#2B3342] py-5 px-[auto] text-center rounded-[2rem] my-[-1.5rem] z-10 border-[#252B36] border-[5px]">
                                 11
                             </div>
                             <div className="mx-auto w-[20rem] bg-[#2B3342] p-5 rounded-xl flex flex-row justify-between">
