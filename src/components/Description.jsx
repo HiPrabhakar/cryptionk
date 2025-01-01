@@ -14,7 +14,7 @@ const Description = () => {
                     borderRadius: "8px", // Rounded corners
                     // boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Adds a subtle shadow
                     padding: "20px", // Inner spacing
-                    backgroundColor: "#62262D",
+                    // backgroundColor: "#62262D",
                     color: "white",
                 }}
             >

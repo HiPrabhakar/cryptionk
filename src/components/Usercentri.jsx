@@ -4,9 +4,9 @@ const Usercentri = () => {
     return (
         <>
             <div
-                className="flex flex-col items-center justify-center min-h-screen bg-gray-100"
+                className="flex flex-col items-center justify-center min-h-screen"
                 style={{
-                    backgroundColor: "#62262D",
+                    // backgroundColor: "#62262D",
                     color: "white",
                 }}
             >
