@@ -16,7 +16,12 @@ const App = () => {
 
 
     <>
-  <div> 
+  <div 
+  style={{
+    backgroundColor: '#62262D'
+
+  }}
+  > 
 
       <Home />
       <Sponsor />

@@ -11,11 +11,12 @@ const Description = () => {
       width: "946px",
       height: "272px",
       margin: "auto", // Centers the container horizontally on the page
-      backgroundColor: "#FFFFFF", // White background
-      border: "2px solid #FF6F61", // Optional border for visibility
+      
       borderRadius: "8px", // Rounded corners
       boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Adds a subtle shadow
       padding: "20px", // Inner spacing
+       backgroundColor: '#62262D',
+       color:'white'
     }}
   >
     <div
@@ -36,7 +37,7 @@ const Description = () => {
     <div>
       <button
         style={{
-          backgroundColor: "#FF6F61", // Button color
+          backgroundColor: "red", // Button color
           color: "white", // Text color
           border: "none",
           borderRadius: "8px", // Rounded corners

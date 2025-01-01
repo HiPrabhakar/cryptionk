@@ -3,7 +3,14 @@ import React from 'react'
 const Testimonial = () => {
     return (
         <>
-            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-gray-800">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-gray-800"
+             style={{
+                backgroundColor: '#62262D',
+                color:'white'
+            
+              }}
+
+            >
   {/* Testimonial Section */}
   <div className="text-center mb-8">
     <h1 className="text-3xl font-bold mb-4">Testimonial</h1>
