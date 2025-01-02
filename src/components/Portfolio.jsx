@@ -48,7 +48,7 @@ const Portfolio = () => {
                 position: 'absolute',
                 top: '10px',
                 left: '10px',
-                background: 'pink',
+            
                 borderRadius: '50%',
                 width: '30px',
                 height: '30px',
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 fontWeight: 'bold',
               }}
             >
-              1
+              01
             </div>
             <div style={{ textAlign: 'center', 
                 display:'flex',
@@ -89,7 +89,7 @@ const Portfolio = () => {
                 position: 'absolute',
                 top: '10px',
                 left: '10px',
-                background: 'pink',
+                
                 borderRadius: '50%',
                 width: '30px',
                 height: '30px',
@@ -99,7 +99,7 @@ const Portfolio = () => {
                 fontWeight: 'bold',
               }}
             >
-              2
+             02
             </div>
             <div style={{ textAlign: 'center', 
                 display:'flex',
@@ -130,7 +130,7 @@ const Portfolio = () => {
                 position: 'absolute',
                 top: '10px',
                 left: '10px',
-                background: 'pink',
+               
                 borderRadius: '50%',
                 width: '30px',
                 height: '30px',
@@ -140,7 +140,7 @@ const Portfolio = () => {
                 fontWeight: 'bold',
               }}
             >
-              3
+              03
             </div>
             <div style={{ textAlign: 'center', 
                 display:'flex',

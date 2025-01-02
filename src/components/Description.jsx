@@ -13,7 +13,7 @@ const Description = () => {
       margin: "auto", // Centers the container horizontally on the page
       
       borderRadius: "8px", // Rounded corners
-      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Adds a subtle shadow
+      
       padding: "20px", // Inner spacing
        backgroundColor: '#62262D',
        color:'white'
@@ -37,7 +37,7 @@ const Description = () => {
     <div>
       <button
         style={{
-          backgroundColor: "red", // Button color
+            background:'linear-gradient(90deg, #8C3035 0%, #D17561 100%)', // Button color
           color: "white", // Text color
           border: "none",
           borderRadius: "8px", // Rounded corners
@@ -48,6 +48,7 @@ const Description = () => {
         }}
       >
         Swap Crypto
+    
       </button>
     </div>
   </div>
