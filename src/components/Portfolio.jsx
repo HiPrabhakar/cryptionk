@@ -1,30 +1,40 @@
-import React from 'react';
-import Maskgroup from './../assets/Mask group.png';
-import Maskgroup1 from './../assets/Mask group (1).png';
-import Maskgroup2 from './../assets/Mask group (2).png';
+import React from "react";
+import Maskgroup from "./../assets/Mask group.png";
+import Maskgroup1 from "./../assets/Mask group (1).png";
+import Maskgroup2 from "./../assets/Mask group (2).png";
 
 const Portfolio = () => {
-  return (
-    <>
-      <div
-        style={{
-          width: '1240px',
-          padding: '20px',
-          margin: 'auto',
-          opacity: '1',
-          backgroundColor: '#62262D',
-          
-          color:'White'
-        }}
-      >
-        {/* Centered Title and Paragraph */}
-        <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Automated portfolio tracking</h1>
-          <p style={{ marginTop: '10px', fontSize: '1rem', color: '#fffff' }}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt reprehenderit possimus perspiciatis illum
-            repellendus doloremque nesciunt dolores obcaecati, quia suscipit voluptatem eum fuga quisquam.
-          </p>
-        </div>
+    return (
+        <>
+            <div
+                style={{
+                    width: "1240px",
+                    padding: "20px",
+                    margin: "auto",
+                    opacity: "1",
+                    // backgroundColor: '#62262D',
+
+                    color: "White",
+                }}
+            >
+                {/* Centered Title and Paragraph */}
+                <div style={{ textAlign: "center", marginBottom: "40px" }}>
+                    <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>
+                        Automated portfolio tracking
+                    </h1>
+                    <p
+                        style={{
+                            marginTop: "10px",
+                            fontSize: "1rem",
+                            color: "#fffff",
+                        }}
+                    >
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cum deserunt reprehenderit possimus perspiciatis
+                        illum repellendus doloremque nesciunt dolores obcaecati,
+                        quia suscipit voluptatem eum fuga quisquam.
+                    </p>
+                </div>
 
         {/* Steps in Boxes */}
         <div
@@ -48,7 +58,7 @@ const Portfolio = () => {
                 position: 'absolute',
                 top: '10px',
                 left: '10px',
-            
+                background: 'pink',
                 borderRadius: '50%',
                 width: '30px',
                 height: '30px',
@@ -58,7 +68,7 @@ const Portfolio = () => {
                 fontWeight: 'bold',
               }}
             >
-              01
+              1
             </div>
             <div style={{ textAlign: 'center', 
                 display:'flex',
@@ -89,7 +99,7 @@ const Portfolio = () => {
                 position: 'absolute',
                 top: '10px',
                 left: '10px',
-                
+                background: 'pink',
                 borderRadius: '50%',
                 width: '30px',
                 height: '30px',
@@ -99,7 +109,7 @@ const Portfolio = () => {
                 fontWeight: 'bold',
               }}
             >
-             02
+              2
             </div>
             <div style={{ textAlign: 'center', 
                 display:'flex',
@@ -130,7 +140,7 @@ const Portfolio = () => {
                 position: 'absolute',
                 top: '10px',
                 left: '10px',
-               
+                background: 'pink',
                 borderRadius: '50%',
                 width: '30px',
                 height: '30px',
@@ -140,7 +150,7 @@ const Portfolio = () => {
                 fontWeight: 'bold',
               }}
             >
-              03
+              3
             </div>
             <div style={{ textAlign: 'center', 
                 display:'flex',
