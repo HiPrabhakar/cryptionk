@@ -23,7 +23,7 @@ const App = () => {
                 <img
                     src={bgImg}
                     alt=""
-                    className="z-[-999] absolute w-full h-[450%] transparency-35 bg-red-600 fill-red-600"
+                    className="z-[-999] absolute w-full h-[400%] transparency-35 bg-red-600 fill-red-600"
                 />
                 <Home />
                 <Sponsor />
