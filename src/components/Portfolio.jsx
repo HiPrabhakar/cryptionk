@@ -36,140 +36,185 @@ const Portfolio = () => {
                     </p>
                 </div>
 
-        {/* Steps in Boxes */}
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
-            gap: '30px',
-          }}
-        >
-          {/* Step 1 */}
-          <div
-            style={{
-              border: '1px solid pink',
-              padding: '20px',
-              borderRadius: '8px',
-              position: 'relative',
-            }}
-          >
-            <div
-              style={{
-                position: 'absolute',
-                top: '10px',
-                left: '10px',
-                background: 'pink',
-                borderRadius: '50%',
-                width: '30px',
-                height: '30px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontWeight: 'bold',
-              }}
-            >
-              1
-            </div>
-            <div style={{ textAlign: 'center', 
-                display:'flex',
-                flexDirection:'column',
-                alignItems:'center'
+                {/* Steps in Boxes */}
+                <div
+                    style={{
+                        display: "grid",
+                        gridTemplateColumns: "repeat(3, 1fr)",
+                        gap: "30px",
+                    }}
+                >
+                    {/* Step 1 */}
+                    <div
+                        style={{
+                            border: "1px solid pink",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            position: "relative",
+                        }}
+                    >
+                        <div
+                            style={{
+                                position: "absolute",
+                                top: "10px",
+                                left: "10px",
+                                background: "pink",
+                                borderRadius: "50%",
+                                width: "30px",
+                                height: "30px",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            1
+                        </div>
+                        <div
+                            style={{
+                                textAlign: "center",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                            }}
+                        >
+                            <img
+                                src={Maskgroup}
+                                alt="Step 1"
+                                className="w-auto h-auto mb-4"
+                            />
+                            <h2
+                                style={{
+                                    fontSize: "1.25rem",
+                                    marginBottom: "10px",
+                                }}
+                            >
+                                Connect wallet & exchange
+                            </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates, numquam quia
+                                praesentium aliquid odio illum tempora libero
+                                quaerat autem aspernatur! Magnam.
+                            </p>
+                        </div>
+                    </div>
 
-            }}>
-              <img src={Maskgroup} alt="Step 1" className="w-auto h-auto mb-4" />
-              <h2 style={{ fontSize: '1.25rem', marginBottom: '10px' }}>Connect wallet & exchange</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam quia praesentium aliquid odio illum
-                tempora libero quaerat autem aspernatur! Magnam.
-              </p>
-            </div>
-          </div>
+                    {/* Step 2 */}
+                    <div
+                        style={{
+                            border: "1px solid pink",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            position: "relative",
+                        }}
+                    >
+                        <div
+                            style={{
+                                position: "absolute",
+                                top: "10px",
+                                left: "10px",
+                                background: "pink",
+                                borderRadius: "50%",
+                                width: "30px",
+                                height: "30px",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            2
+                        </div>
+                        <div
+                            style={{
+                                textAlign: "center",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                            }}
+                        >
+                            <img
+                                src={Maskgroup1}
+                                alt="Step 2"
+                                className="w-auto h-auto mb-4"
+                            />
+                            <h2
+                                style={{
+                                    fontSize: "1.25rem",
+                                    marginBottom: "10px",
+                                }}
+                            >
+                                Connect wallet & exchange
+                            </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates, numquam quia
+                                praesentium aliquid odio illum tempora libero
+                                quaerat autem aspernatur! Magnam.
+                            </p>
+                        </div>
+                    </div>
 
-          {/* Step 2 */}
-          <div
-            style={{
-              border: '1px solid pink',
-              padding: '20px',
-              borderRadius: '8px',
-              position: 'relative',
-            }}
-          >
-            <div
-              style={{
-                position: 'absolute',
-                top: '10px',
-                left: '10px',
-                background: 'pink',
-                borderRadius: '50%',
-                width: '30px',
-                height: '30px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontWeight: 'bold',
-              }}
-            >
-              2
+                    {/* Step 3 */}
+                    <div
+                        style={{
+                            border: "1px solid pink",
+                            padding: "20px",
+                            borderRadius: "8px",
+                            position: "relative",
+                        }}
+                    >
+                        <div
+                            style={{
+                                position: "absolute",
+                                top: "10px",
+                                left: "10px",
+                                background: "pink",
+                                borderRadius: "50%",
+                                width: "30px",
+                                height: "30px",
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            3
+                        </div>
+                        <div
+                            style={{
+                                textAlign: "center",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                            }}
+                        >
+                            <img
+                                src={Maskgroup2}
+                                alt="Step 3"
+                                className="w-auto h-auto mb-4"
+                            />
+                            <h2
+                                style={{
+                                    fontSize: "1.25rem",
+                                    marginBottom: "10px",
+                                }}
+                            >
+                                Connect wallet & exchange
+                            </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates, numquam quia
+                                praesentium aliquid odio illum tempora libero
+                                quaerat autem aspernatur! Magnam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style={{ textAlign: 'center', 
-                display:'flex',
-                flexDirection:'column',
-                alignItems:'center'
-
-            }}>
-              <img src={Maskgroup1} alt="Step 2" className="w-auto h-auto mb-4" />
-              <h2 style={{ fontSize: '1.25rem', marginBottom: '10px' }}>Connect wallet & exchange</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam quia praesentium aliquid odio illum
-                tempora libero quaerat autem aspernatur! Magnam.
-              </p>
-            </div>
-          </div>
-
-          {/* Step 3 */}
-          <div
-            style={{
-              border: '1px solid pink',
-              padding: '20px',
-              borderRadius: '8px',
-              position: 'relative',
-            }}
-          >
-            <div
-              style={{
-                position: 'absolute',
-                top: '10px',
-                left: '10px',
-                background: 'pink',
-                borderRadius: '50%',
-                width: '30px',
-                height: '30px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontWeight: 'bold',
-              }}
-            >
-              3
-            </div>
-            <div style={{ textAlign: 'center', 
-                display:'flex',
-                flexDirection:'column',
-                alignItems:'center'
-
-            }}>
-              <img src={Maskgroup2} alt="Step 3" className="w-auto h-auto mb-4" />
-              <h2 style={{ fontSize: '1.25rem', marginBottom: '10px' }}>Connect wallet & exchange</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, numquam quia praesentium aliquid odio illum
-                tempora libero quaerat autem aspernatur! Magnam.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+        </>
+    );
 };
 
 export default Portfolio;

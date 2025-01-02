@@ -1,4 +1,13 @@
 import React from "react";
+import Maskgroup from "./../assets/Mask group.png";
+// import archivecontent1 from "./../assets/archive-content 1.png";
+
+ import board21 from "./../assets/board-2 1.png";
+// import archivecontent1 from "./../assets/archive-content 1.png";
+// import archivecontent1 from "./../assets/archive-content 1.png";
+// import archivecontent1 from "./../assets/archive-content 1.png";
+
+
 
 const Usercentri = () => {
     return (
@@ -25,7 +34,11 @@ const Usercentri = () => {
                 <div className="grid grid-cols-3  px-[5rem]">
                     {/* Box 1 */}
                     <div className="border-r-2 border-b-2 border-pink-500  text-center p-[3.5rem]">
-                        <img src="" alt="" />
+                       <img
+                                                       src={Maskgroup}
+                                                       alt="Step 1"
+                                                       className="w-auto h-auto mb-4 m-auto"
+                                                   />
                         <h1 className="text-xl font-bold mb-2">Support</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -36,6 +49,13 @@ const Usercentri = () => {
 
                     {/* Box 2 */}
                     <div className="border-b-2 border-l-2 border-r-2 border-pink-500  text-center p-[3.5rem]">
+
+                    {/* <img
+                                                       src={Maskgroup}
+                                                       alt="Step 1"
+                                                       className="w-auto h-auto mb-4 m-auto"
+                                                   /> */}
+
                         <h1 className="text-xl font-bold mb-2">Sales</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -46,6 +66,13 @@ const Usercentri = () => {
 
                     {/* Box 3 */}
                     <div className="border-b-2 border-l-2  border-pink-500  text-center p-[3.5rem]">
+
+                   <img
+                                                       src={board21}
+                                                       alt="Step 1"
+                                                       className="w-auto h-auto mb-4 m-auto"
+                                                   />  
+
                         <h1 className="text-xl font-bold mb-2">Onboarding</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -55,7 +82,16 @@ const Usercentri = () => {
                     </div>
 
                     {/* Box 4 */}
-                    <div className="border-t-2 border-r-2 border-pink-500  text-center p-[3.5rem]">
+                    <div className="border-t-2 border-r-2 border-pink-500  text-center p-[3.5rem]"
+
+                    >
+                        {/* <img
+                                                       src={}
+                                                       alt="Step 1"
+                                                       className="w-auto h-auto mb-4 m-auto"
+                                                   /> */}
+                         
+                                                  
                         <h1 className="text-xl font-bold mb-2">Product</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -66,6 +102,12 @@ const Usercentri = () => {
 
                     {/* Box 5 */}
                     <div className="border-t-2 border-r-2 border-l-2  border-pink-500  text-center p-[3.5rem]">
+
+                    {/* <img
+                                                       src={Maskgroup}
+                                                       alt="Step 1"
+                                                       className="w-auto h-auto mb-4 m-auto"
+                                                   /> */}
                         <h1 className="text-xl font-bold mb-2">Quality</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -76,6 +118,11 @@ const Usercentri = () => {
 
                     {/* Box 6 */}
                     <div className="border-l-2 border-t-2  border-pink-500  text-center p-[3.5rem]">
+                    {/* <img
+                                                       src={Maskgroup}
+                                                       alt="Step 1"
+                                                       className="w-auto h-auto mb-4 m-auto"
+                                                   /> */}
                         <h1 className="text-xl font-bold mb-2">Result</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
